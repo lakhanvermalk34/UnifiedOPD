@@ -1,0 +1,7 @@
+{
+  "name": "UnifiedOPD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
