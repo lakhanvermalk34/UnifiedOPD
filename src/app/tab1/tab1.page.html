@@ -1,17 +1,62 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!--  Main Content  -->
+<ion-content class="home-content">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Top Row: Location + User -->
+  <div class="top-row">
+    <div class="location-box">
+      <ion-icon name="location-outline"></ion-icon>
+      <span>Hisar, Haryana</span>
+    </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <div class="user-box">
+      <ion-icon name="person-circle-outline"></ion-icon>
+    </div>
+  </div>
+
+  <!-- Search Bar -->
+  <ion-searchbar placeholder="Search Doctor, Hospital & Labs"></ion-searchbar>
+
+  <!-- Offers / Slider -->
+  <ion-card class="offer-card">
+    <ion-card-content>
+      Offers / Slider
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Category Grid -->
+  <div class="category-grid">
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>Cardiology</p>
+    </div>
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>Dentist</p>
+    </div>
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>Gynochology</p>
+    </div>
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>Physiotherapy</p>
+    </div>
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>Orthonology</p>
+    </div>
+
+    <div class="cat-item">
+      <ion-avatar><img src="assets/img/placeholder.png" /></ion-avatar>
+      <p>All</p>
+    </div>
+  </div>
+
+  <!-- Bottom Buttons -->
+
 </ion-content>

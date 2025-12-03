@@ -1,0 +1,58 @@
+.home-content {
+  padding: 16px;
+}
+
+/* Top row */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.user-box {
+  text-align: center;
+  font-size: 12px;
+}
+
+.user-box ion-icon {
+  font-size: 28px;
+}
+
+/* Offer box */
+.offer-card {
+  margin-top: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Categories */
+.category-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 24px;
+  text-align: center;
+}
+
+.cat-item p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* Bottom buttons */
+.footer-buttons {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
