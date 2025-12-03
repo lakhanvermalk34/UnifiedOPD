@@ -2,7 +2,7 @@
   padding: 16px;
 }
 
-/* Top row */
+/* ------------------ Top Row ------------------ */
 .top-row {
   display: flex;
   justify-content: space-between;
@@ -19,23 +19,18 @@
   font-weight: 500;
 }
 
-.user-box {
-  text-align: center;
-  font-size: 12px;
-}
-
 .user-box ion-icon {
   font-size: 28px;
 }
 
-/* Offer box */
+/* ------------------ Offer Box ------------------ */
 .offer-card {
   margin-top: 12px;
   padding: 10px;
   text-align: center;
 }
 
-/* Categories */
+/* ------------------ Category Grid ------------------ */
 .category-grid {
   margin-top: 20px;
   display: grid;
@@ -49,7 +44,22 @@
   font-size: 14px;
 }
 
-/* Bottom buttons */
+/* ------------------ Avatar + Icon Size ------------------ */
+.cat-avatar {
+  width: 80px;
+  height: 80px;
+  display: flex;              /* Ensures icon centers */
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-avatar ion-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 45px;            /* Ensures SVG scales properly */
+}
+
+/* ------------------ Footer Buttons ------------------ */
 .footer-buttons {
   margin-top: 30px;
   display: grid;
