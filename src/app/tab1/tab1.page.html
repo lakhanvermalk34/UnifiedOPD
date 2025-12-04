@@ -3,7 +3,7 @@
   <!-- Top Row: Location + User -->
   <div class="top-row">
     <div class="location-box">
-      <ion-icon src="assets/icon/doctor.svg"></ion-icon>
+      <ion-icon name="location"></ion-icon>
       <span>Hisar, Haryana</span>
     </div>
 
@@ -17,11 +17,25 @@
   <ion-searchbar placeholder="Search Doctor, Hospital & Labs"></ion-searchbar>
 
   <!-- Offers / Slider -->
-  <ion-card class="offer-card">
+  <!-- <ion-card class="offer-card">
     <ion-card-content>
       Offers / Slider
     </ion-card-content>
-  </ion-card>
+  </ion-card> -->
+  <swiper-container pagination="true" navigation="true" autoplay="true" loop="true" slides-per-view="1" speed="500">
+    <swiper-slide>
+      <img src="assets/icon/doctor.svg" />
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="assets/icon/doctor.svg" />
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="assets/icon/doctor.svg" />
+    </swiper-slide>
+  </swiper-container>
+
 
   <!-- Category Grid -->
   <div class="category-grid">
